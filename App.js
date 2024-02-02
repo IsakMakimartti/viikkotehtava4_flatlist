@@ -38,7 +38,7 @@ export default function App() {
       if (json === null) {
         json = []
       }
-      console.log(json)
+      //console.log(json)
       setItems(json)
     } catch (ex) {
       console.log(ex)
@@ -72,6 +72,7 @@ export default function App() {
   );
 }
 
+// Different solutions for rendreing list-items
 /*
 function renderItem({item}){
   return (<Text>{item.lastname}</Text>)

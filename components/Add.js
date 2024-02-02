@@ -11,7 +11,7 @@ export default function Add({items, setItems, storeData}) {
             lastname: lastName,
             firstname: firstName
         }
-        if (firstName != '' && lastName != ''){
+        if (firstName !== '' && lastName !== ''){
             const tempItems = [...items,newPerson]
             storeData(tempItems)
             setItems(tempItems)
