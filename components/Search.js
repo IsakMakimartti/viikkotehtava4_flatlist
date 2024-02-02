@@ -1,4 +1,4 @@
-import { TextInput, View, StyleSheet } from "react-native";
+import { TextInput, View, StyleSheet, Dimensions } from "react-native";
 import React, { useState } from 'react'
 
 export default function Search({executeSearch}){
@@ -17,11 +17,17 @@ export default function Search({executeSearch}){
     )
 }
 
+var width = Dimensions.get('window').width;
+
 const styles = StyleSheet.create ({
     searchBox: {
-        marginBottom: 20,
+        marginTop: 24,
+        marginRight: 24,
+        marginBottom: 24,
+        marginLeft: 24,
         borderColor: '#333',
         borderWidth: 1,
-        padding: 5
+        padding: 8,
+        width: width*0.9
     }
 })
