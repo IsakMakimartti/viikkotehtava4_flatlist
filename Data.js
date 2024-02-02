@@ -11,12 +11,12 @@ export const DATA =  [
     },
     {
         id: '3',
-        lastname: 'Laine',
+        lastname: 'Hirvonen',
         firstname: 'Sami'
     },
     {
         id: '4',
-        lastname: 'Raunila',
+        lastname: 'Kaivola',
         firstname: 'Benjamin'
     },
     {
@@ -31,7 +31,7 @@ export const DATA =  [
     },
     {
         id: '7',
-        lastname: 'Martinsen',
+        lastname: 'Maijanen',
         firstname: 'Marja-Liisa'
     }
 ]
